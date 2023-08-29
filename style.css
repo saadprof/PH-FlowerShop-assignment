@@ -57,3 +57,81 @@
     color: #7C7778;
     margin: 20px 0px;
 }
+
+
+/* Main section style here */
+#main{
+    margin: 120px 0;
+}
+
+#main .featured-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+}
+#main .featured-disc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+    width: 50%;
+    padding: 15px 0 30px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#main .featured .flowers{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main .featured .flower .shape1{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+
+    background-color: #FCEEF1;
+    background-image: url(images/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center bottom;
+
+    border-radius: 200px 200px 0 0;
+}
+#main .featured .shape2{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+
+    background-color: #DAEFF1;
+    background-image: url(images/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+
+    border-radius: 200px 200px 0 0;
+}
+#main .featured .shape3{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+
+    background-color: #E3ECDB;
+    background-image: url(images/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center bottom;
+
+    border-radius: 200px 200px 0 0;
+}
+#main .featured .flower-name{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    text-decoration: underline;
+}
