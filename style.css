@@ -193,3 +193,34 @@
     margin: 24px 0 35px 0;
     line-height: 30px;
 }
+
+/* Socials styles */
+#main .social{
+    margin: 120px;
+}
+#main .social-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+}
+#main .social-desc{
+    margin: 15px auto 30px auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727277e;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+#main .social-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+#main .social-img img{
+    width: 100%;
+}
+
