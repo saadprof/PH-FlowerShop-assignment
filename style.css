@@ -164,6 +164,32 @@
 #main .promise .promise-tittle{
     font-size: 18px;
     font-weight: 400;
-    color: #6e6e6e;
+    color: #272727;
     margin-top: 18px;
+}
+
+/* Hot deals styles here */
+#main .hot-deals{
+    background-color: #FEF6F8;
+}
+#main .deals-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+
+    text-align: center;
+    padding: 50px 120px;
+}
+#main .deals-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+#main .deals-desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727277e;
+    margin: 24px 0 35px 0;
+    line-height: 30px;
 }
