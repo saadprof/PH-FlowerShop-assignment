@@ -213,7 +213,6 @@
     line-height: 30px;
     text-align: center;
 }
-
 #main .social-img{
     display: flex;
     align-items: center;
@@ -224,3 +223,33 @@
     width: 100%;
 }
 
+
+#main .latest-deals{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+#main .latest{
+    padding: 120px 200px;
+}
+#main .latest-tittle{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+#main .latest-desc{
+    margin: 18px 0 40px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2727277e;
+}
+#main .latest-deals input{
+    padding: 16px;
+    border: 1px solid #e995a7;
+    border-radius: 8px;
+    width: 300px;
+    color: #f37e97;
+}
